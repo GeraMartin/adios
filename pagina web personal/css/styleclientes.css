@@ -1,0 +1,119 @@
+:root {
+  --navy: #053B50;
+  --blue: #176B87;
+  --teal: #64CCC5;
+  --grey: #D8D9DA;
+  --black: #000000;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,h2,h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color:var(--naranja);
+  font-size: 3.5rem;
+  padding-top: 3rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  color: white;
+}
+
+h3 {
+  font-size: 3rem;
+  color: orange;
+  padding-top: 2rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+
+}
+
+span {
+  color: var(--negro);
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a:hover {
+  color: orange;
+}
+
+.header {
+  background-color: var(--black);
+  width: 120rem;
+  margin: 3rem auto 0 auto;
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+
+}
+
+.contenedor {
+  background-color: var(--grey);
+  width: 120rem;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 3rem;
+  -webkit-box-shadow: 10px 10px 32px 5px rgb(24, 29, 29);
+  -moz-box-shadow: 10px 10px 32px 5px rgb(5, 5, 5);
+  box-shadow: 10px 10px 32px 5px rgb(10, 10, 10);
+  margin-bottom: 5rem;
+}
+
+.Lclien {
+  font-size: 3rem;
+  color: #d2691e;
+  padding-bottom: 4rem;
+}
+
+* {
+  border-collapse: collapse;
+}
+table {
+  width: 99.1%;
+  margin: .5rem;
+}
+td, th {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+tr:hover {
+  background-color: orange;
+}
+
+
+th {
+  background-color: #000000;
+  color: white;
+  font-size: 2rem;
+}
+
+td {
+  font-size: 2rem;
+}
+
+  
